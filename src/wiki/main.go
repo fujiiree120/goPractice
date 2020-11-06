@@ -143,5 +143,5 @@ func main() {
 	http.HandleFunc("/edit/", makeHandler(editHandler))
 	http.HandleFunc("/save/", makeHandler(saveHandler))
 	http.HandleFunc("/top/", topHandler)
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":5000", nil)
 }
